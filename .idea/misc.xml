@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dev/Jason/cadastroDeRoupa/app/src/main/res/layout/activity_cadastro.xml" value="0.36666666666666664" />
         <entry key="..\:/Dev/Jason/cadastroDeRoupa/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Dev/Jason/cadastroDeRoupa/app/src/main/res/layout/layout_roupa.xml" value="0.33" />
+        <entry key="..\:/Dev/Jason/cadastroDeRoupa/app/src/main/res/layout/roupa.xml" value="0.1" />
       </map>
     </option>
   </component>
