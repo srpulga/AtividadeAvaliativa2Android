@@ -1,19 +1,27 @@
 package com.example.cadastroderoupa.module;
 
 public class Roupa {
+    private String tipo;
     private String cor;
     private String tamanho;
-    private String tipo;
     private String marca;
 
     public Roupa() {
     }
 
-    public Roupa(String cor, String tamanho, String tipo, String marca) {
+    public Roupa(String tipo, String cor, String tamanho, String marca) {
+        this.tipo = tipo;
         this.cor = cor;
         this.tamanho = tamanho;
-        this.tipo = tipo;
         this.marca = marca;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public String getCor() {
@@ -30,14 +38,6 @@ public class Roupa {
 
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
     }
 
     public String getMarca() {

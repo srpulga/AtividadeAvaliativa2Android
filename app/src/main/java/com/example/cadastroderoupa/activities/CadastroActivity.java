@@ -27,7 +27,7 @@ public class CadastroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro);
         inicializarComponentes();
 
-        RoupaDAO roupaDAO = new RoupaDAO();
+        roupaDAO = new RoupaDAO();
 
         bSalvar.setOnClickListener(v -> {
             if(     etTipo.getText().toString().isEmpty() ||
